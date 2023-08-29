@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230822 19:30:31.773" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="c:\Users\A R E X\Desktop\Example\tasks.robot">
+<test id="s1-t1" name="Abrir pagina" line="14">
+<kw name="Abrir simit">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://www3.simit.org.co/Simit/indexA.jsp</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20230822 19:30:33.458" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20230822 19:30:54.924" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20230822 19:30:54.924" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20230822 19:30:54.925" level="INFO">Opening url 'https://www3.simit.org.co/Simit/indexA.jsp'</msg>
+<status status="PASS" starttime="20230822 19:30:33.421" endtime="20230822 19:30:58.899"/>
+</kw>
+<status status="PASS" starttime="20230822 19:30:33.419" endtime="20230822 19:30:58.900"/>
+</kw>
+<status status="PASS" starttime="20230822 19:30:33.418" endtime="20230822 19:30:58.903"/>
+</test>
+<doc>Robot que sustrae el simit de Bancolombia.</doc>
+<status status="PASS" starttime="20230822 19:30:31.825" endtime="20230822 19:30:58.908"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
